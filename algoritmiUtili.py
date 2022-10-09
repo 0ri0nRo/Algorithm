@@ -25,7 +25,7 @@ def CountingSortSenzaDatiS(A):
 def CountingSort(A):
     size = len(A) - 1
     C = [0] * size
-    m = max(A)
+    m = max(A)+1
     B = [0] * m
     i = 0
     for i in range(0, size):
